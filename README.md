@@ -1,8 +1,9 @@
 # Tires React Project
 
 1. Clone the repository
-2. Install all dependencies using `yarn install`
-3. Run the project using `yarn start`
+2. CD into the project directory
+3. Install all dependencies using `yarn install`
+4. Run the project using `yarn start`
 
 # Contributing
 
