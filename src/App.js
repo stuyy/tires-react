@@ -1,13 +1,15 @@
-import { Routes, Route } from 'react-router-dom';
-import { HomePage, RegistrationPage, LoginPage } from './pages';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {HomePage, RegistrationPage, LoginPage} from './pages';
 
 function App() {
   return (
+    <Router>
     <Routes>
-      <Route path="/home" element={<HomePage />} />
-      <Route path="/register" element={<RegistrationPage />} />
-      <Route path="/login" element={<LoginPage />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="register" element={<RegistrationPage />} />
+      <Route path="login" element={<LoginPage />} />
     </Routes>
+    </Router>
   );
 }
 
