@@ -15,8 +15,8 @@ const navbar = () => {
                 <Link to="/searchingPage">Services</Link>
             </div>
             <div className="buttons">
-                <button> Login </button><button> Register </button>
-                
+                <Link to="../../guest/LoginPage"><button> Login </button></Link>
+                <Link to="../../guest/RegistrationPage"><button> Register </button></Link>
             </div>
         </div>
     );
