@@ -1,7 +1,39 @@
-div img {
-    position: absolute;
-    width: 122.07px;
-    height: 32px;
-    left: 80px;
-    top: 14px;
+.outDiv {
+    width: 100%;
+    height: 60px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    .logoDiv {
+        width: 100%;
+        max-width: 200px;
+        position: relative;
+        text-align: center;
+        img {
+            position: relative;
+            width: 40px;
+        }
+    }
+    .menu {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        a {
+            margin-left: 20px;
+        }
+    }
+    .buttons {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+        align-items: center;
+        button {
+            padding: 10px;
+            height: 40px;
+        }
+    }
 }

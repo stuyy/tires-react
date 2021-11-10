@@ -5,17 +5,19 @@ import "./navBar.scss"
 
 const navbar = () => {
     return (
-        <div>
-            <img src={Logo} id="logo"/>
-            <li>
+        <div className="outDiv">
+            <div className="logoDiv">
+                <img src={Logo}/>
+            </div>
+            <div className="menu">
                 <Link to="/">About Us</Link>
-            </li>
-            <li>
                 <Link to="/contacts">Contacts</Link>
-            </li>
-            <li>
                 <Link to="/searchingPage">Services</Link>
-            </li>
+            </div>
+            <div className="buttons">
+                <button> Login </button><button> Register </button>
+                
+            </div>
         </div>
     );
 };
